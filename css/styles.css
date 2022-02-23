@@ -1,0 +1,234 @@
+/* Title header */
+.header {
+  text-align: center;
+  color: white;  
+  background-color: black;
+  font-family: cursive;
+}
+
+/* font-family:'Fredericka the Great', cursive; */
+
+/* background */
+body {
+  background-image: url(/img/25foh_background.png);
+}
+
+/*remove bullets from nav bar
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: -webkit-sticky;
+position: sticky;
+top: 0px;
+  
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+img {
+  float: left;
+
+}
+
+/*about the talent page*/
+.talent-header {
+  font-family: cursive;
+}
+
+
+
+.enoch-thompkins{
+  color: white;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /*Enoch's image box*/
+ .enoch-pic {
+  padding: 5px;
+  width: 40%;
+  
+}
+
+/* Vince's image box*/
+.vince-pic {
+  padding: 5px;
+  width: 40%;
+  color: white;
+}
+
+
+
+/* Use this section for about_v1 page  */
+
+.talent-header{
+  font-size: larger;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  color: white;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.contact-us {
+color: white;
+text-align: center;
+font-family: cursive;
+}
+
+
+/* drinks img resized */
+.drinks {
+height: 100px;
+width: 100px;
+text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to each to other */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* For index page. Football player video to be used */
+.parallax-video {
+  /* The video used */
+  background-image: url(/img/football-players-pexels-matteo-8266312.mp4);
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Article
+.article {
+padding: 5px;
+width: 665px;
+height: 250px;
+text-align: center;
+background: rgba(20, 220, 103, 0.575);
+color: white;
+font-size: 15px;  
+} */
